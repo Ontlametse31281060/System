@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SystemWebSpringBoot" />
+        <module name="SystemLogic" />
+        <module name="SystemDomain" />
+        <module name="SystemRepository" />
+        <module name="SystemTranslator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SystemWeb" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="System" options="-parameters" />
+      <module name="SystemDomain" options="-parameters" />
+      <module name="SystemLogic" options="-parameters" />
+      <module name="SystemRepository" options="-parameters" />
+      <module name="SystemTranslator" options="-parameters" />
+      <module name="SystemWebSpringBoot" options="-parameters" />
+    </option>
+  </component>
+</project>
